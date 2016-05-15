@@ -171,12 +171,12 @@ function loadTopic(id){
 							firstInit = false;
 
 							//Info Handlers - Fade In
-							jQuery("#header, #caption, #hints").removeClass("transluent");
+							jQuery("#header, #caption, #hints").removeClass("translucent");
 
 							//Info Handlers - Click
 							jQuery('#info').on('click', function(e){
 								jQuery("#header").toggleClass("expanded");
-								jQuery("#caption, #hints").toggleClass("transluent");
+								jQuery("#caption, #hints").toggleClass("translucent");
 							});
 						}
 					}
